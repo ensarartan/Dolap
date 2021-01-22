@@ -14740,7 +14740,7 @@
         /U8AAAAAAAAAAEBfyDYu27dswrOVbf9HAABgUCsr+/8B8fOb4ldb+Z8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_giris.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFUAAAA8CAMAAAAg0Ab6AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF8vLy
         8fHx+Pj47Ozs9vb29PT09fX17+/vAAAA8/Pz+vr6Q0NDBgYGq6ureXl5Ghoa5OTkKCgoVVVVxMTEhISE

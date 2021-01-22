@@ -16,7 +16,7 @@ namespace Dolap
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Sistem());
+            Application.Run(new Form1());
         }
     }
 }

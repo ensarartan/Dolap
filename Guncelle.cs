@@ -30,16 +30,16 @@ namespace Dolap
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            label11.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            label12.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            label13.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            label14.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-            label15.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            txtb_urunid.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            txtb_urunisim.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            txtb_urunboyut.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            txtb_urunrengi.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            txtb_uruntipi.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
             //label16.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
             //label17.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
-            label18.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
-            label19.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
-            label20.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();
+            txtb_urunadedi.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
+            txtb_urunfiyat.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
+            txtb_urunaciklama.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();
             //pictureBox1.Image = dataGridView1.CurrentRow.Cells[9].ValueType;
         }
     }

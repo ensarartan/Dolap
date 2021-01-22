@@ -26,11 +26,11 @@ namespace Dolap
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textBox1.Text))
+            if (string.IsNullOrEmpty(txt_kullanici.Text))
             {
 
                 MessageBox.Show("Lütfen Mail Adresinizi Girin", "Mesaj", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox1.Focus();
+                txt_kullanici.Focus();
                 return;
             }
             try
@@ -39,7 +39,7 @@ namespace Dolap
                 {
 
                     var query = from o in test.Users
-                                where o.UserName == textBox1.Text && o.UserPass == textBox2.Text
+                                where o.UserName == txt_kullanici.Text && o.UserPass == txt_pass.Text
                                 select o;
 
                     if (query.SingleOrDefault() != null)

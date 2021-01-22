@@ -5,9 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d58fb94d32ec465e8e37a0e782df0437" Name="Diagram1">
-        <EntityTypeShape EntityType="DolapDBModel.User" Width="1.5" PointX="0.75" PointY="1.5" />
         <EntityTypeShape EntityType="DolapDBModel.Product" Width="1.5" PointX="3" PointY="1" />
         <EntityTypeShape EntityType="DolapDBModel.sysdiagram" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DolapDBModel.User" Width="1.5" PointX="0.75" PointY="1.5" />
         <AssociationConnector Association="DolapDBModel.FK_Product_User" />
       </Diagram>
     </edmx:Diagrams>

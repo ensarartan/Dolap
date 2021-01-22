@@ -30,27 +30,27 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_urunaciklama = new System.Windows.Forms.Label();
+            this.lbl_urunfiyat = new System.Windows.Forms.Label();
+            this.lbladed = new System.Windows.Forms.Label();
+            this.lbl_uruncikistarih = new System.Windows.Forms.Label();
+            this.lbl_urungiristarih = new System.Windows.Forms.Label();
+            this.lbl_uruntipi = new System.Windows.Forms.Label();
+            this.lbl_urunrengi = new System.Windows.Forms.Label();
+            this.lbl_urunboyut = new System.Windows.Forms.Label();
+            this.lbl_urunisim = new System.Windows.Forms.Label();
+            this.lbl_urunid = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtb_urunid = new System.Windows.Forms.TextBox();
+            this.txtb_urunisim = new System.Windows.Forms.TextBox();
+            this.txtb_urunboyut = new System.Windows.Forms.TextBox();
+            this.txtb_urunrengi = new System.Windows.Forms.TextBox();
+            this.txtb_uruntipi = new System.Windows.Forms.TextBox();
+            this.txtb_urungiristarih = new System.Windows.Forms.TextBox();
+            this.txtb_uruncikistarih = new System.Windows.Forms.TextBox();
+            this.txtb_urunadedi = new System.Windows.Forms.TextBox();
+            this.txtb_urunfiyat = new System.Windows.Forms.TextBox();
+            this.txtb_urunaciklama = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,7 +62,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-2, 402);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1106, 152);
             this.dataGridView1.TabIndex = 0;
@@ -70,26 +70,26 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.txtb_urunaciklama);
+            this.groupBox1.Controls.Add(this.txtb_urunfiyat);
+            this.groupBox1.Controls.Add(this.txtb_urunadedi);
+            this.groupBox1.Controls.Add(this.txtb_uruncikistarih);
+            this.groupBox1.Controls.Add(this.txtb_urungiristarih);
+            this.groupBox1.Controls.Add(this.txtb_uruntipi);
+            this.groupBox1.Controls.Add(this.txtb_urunrengi);
+            this.groupBox1.Controls.Add(this.txtb_urunboyut);
+            this.groupBox1.Controls.Add(this.txtb_urunisim);
+            this.groupBox1.Controls.Add(this.txtb_urunid);
+            this.groupBox1.Controls.Add(this.lbl_urunaciklama);
+            this.groupBox1.Controls.Add(this.lbl_urunfiyat);
+            this.groupBox1.Controls.Add(this.lbladed);
+            this.groupBox1.Controls.Add(this.lbl_uruncikistarih);
+            this.groupBox1.Controls.Add(this.lbl_urungiristarih);
+            this.groupBox1.Controls.Add(this.lbl_uruntipi);
+            this.groupBox1.Controls.Add(this.lbl_urunrengi);
+            this.groupBox1.Controls.Add(this.lbl_urunboyut);
+            this.groupBox1.Controls.Add(this.lbl_urunisim);
+            this.groupBox1.Controls.Add(this.lbl_urunid);
             this.groupBox1.Location = new System.Drawing.Point(14, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
@@ -99,185 +99,95 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ürün Bilgileri";
             // 
-            // label20
+            // lbl_urunaciklama
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(172, 331);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(21, 20);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "--";
+            this.lbl_urunaciklama.AutoSize = true;
+            this.lbl_urunaciklama.Location = new System.Drawing.Point(8, 331);
+            this.lbl_urunaciklama.Name = "lbl_urunaciklama";
+            this.lbl_urunaciklama.Size = new System.Drawing.Size(150, 20);
+            this.lbl_urunaciklama.TabIndex = 10;
+            this.lbl_urunaciklama.Text = "Ürün Açıklaması :";
             // 
-            // label19
+            // lbl_urunfiyat
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(172, 299);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(21, 20);
-            this.label19.TabIndex = 19;
-            this.label19.Text = "--";
+            this.lbl_urunfiyat.AutoSize = true;
+            this.lbl_urunfiyat.Location = new System.Drawing.Point(49, 299);
+            this.lbl_urunfiyat.Name = "lbl_urunfiyat";
+            this.lbl_urunfiyat.Size = new System.Drawing.Size(109, 20);
+            this.lbl_urunfiyat.TabIndex = 9;
+            this.lbl_urunfiyat.Text = "Ürün Fiyatı :";
             // 
-            // label18
+            // lbladed
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(172, 267);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(21, 20);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "--";
+            this.lbladed.AutoSize = true;
+            this.lbladed.Location = new System.Drawing.Point(48, 267);
+            this.lbladed.Name = "lbladed";
+            this.lbladed.Size = new System.Drawing.Size(110, 20);
+            this.lbladed.TabIndex = 8;
+            this.lbladed.Text = "Ürün Adedi :";
             // 
-            // label17
+            // lbl_uruncikistarih
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(172, 235);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(21, 20);
-            this.label17.TabIndex = 17;
-            this.label17.Text = "--";
+            this.lbl_uruncikistarih.AutoSize = true;
+            this.lbl_uruncikistarih.Location = new System.Drawing.Point(2, 235);
+            this.lbl_uruncikistarih.Name = "lbl_uruncikistarih";
+            this.lbl_uruncikistarih.Size = new System.Drawing.Size(156, 20);
+            this.lbl_uruncikistarih.TabIndex = 7;
+            this.lbl_uruncikistarih.Text = "Ürün Çıkış Tarihi :";
             // 
-            // label16
+            // lbl_urungiristarih
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(172, 203);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(21, 20);
-            this.label16.TabIndex = 16;
-            this.label16.Text = "--";
+            this.lbl_urungiristarih.AutoSize = true;
+            this.lbl_urungiristarih.Location = new System.Drawing.Point(4, 203);
+            this.lbl_urungiristarih.Name = "lbl_urungiristarih";
+            this.lbl_urungiristarih.Size = new System.Drawing.Size(154, 20);
+            this.lbl_urungiristarih.TabIndex = 6;
+            this.lbl_urungiristarih.Text = "Ürün Giriş Tarihi :";
             // 
-            // label15
+            // lbl_uruntipi
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(172, 171);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(21, 20);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "--";
+            this.lbl_uruntipi.AutoSize = true;
+            this.lbl_uruntipi.Location = new System.Drawing.Point(64, 171);
+            this.lbl_uruntipi.Name = "lbl_uruntipi";
+            this.lbl_uruntipi.Size = new System.Drawing.Size(94, 20);
+            this.lbl_uruntipi.TabIndex = 5;
+            this.lbl_uruntipi.Text = "Ürün Tipi :";
             // 
-            // label14
+            // lbl_urunrengi
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(172, 139);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(21, 20);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "--";
+            this.lbl_urunrengi.AutoSize = true;
+            this.lbl_urunrengi.Location = new System.Drawing.Point(47, 139);
+            this.lbl_urunrengi.Name = "lbl_urunrengi";
+            this.lbl_urunrengi.Size = new System.Drawing.Size(111, 20);
+            this.lbl_urunrengi.TabIndex = 4;
+            this.lbl_urunrengi.Text = "Ürün Rengi :";
             // 
-            // label13
+            // lbl_urunboyut
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(172, 107);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(21, 20);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "--";
+            this.lbl_urunboyut.AutoSize = true;
+            this.lbl_urunboyut.Location = new System.Drawing.Point(35, 107);
+            this.lbl_urunboyut.Name = "lbl_urunboyut";
+            this.lbl_urunboyut.Size = new System.Drawing.Size(123, 20);
+            this.lbl_urunboyut.TabIndex = 3;
+            this.lbl_urunboyut.Text = "Ürün Boyutu :";
             // 
-            // label12
+            // lbl_urunisim
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(172, 75);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(21, 20);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "--";
+            this.lbl_urunisim.AutoSize = true;
+            this.lbl_urunisim.Location = new System.Drawing.Point(60, 75);
+            this.lbl_urunisim.Name = "lbl_urunisim";
+            this.lbl_urunisim.Size = new System.Drawing.Size(98, 20);
+            this.lbl_urunisim.TabIndex = 2;
+            this.lbl_urunisim.Text = "Ürün İsmi :";
             // 
-            // label11
+            // lbl_urunid
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(172, 43);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(21, 20);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "--";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(8, 331);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(150, 20);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Ürün Açıklaması :";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(49, 299);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(109, 20);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Ürün Fiyatı :";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(48, 267);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 20);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Ürün Adedi :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(2, 235);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(156, 20);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Ürün Çıkış Tarihi :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(4, 203);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(154, 20);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Ürün Giriş Tarihi :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(64, 171);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Ürün Tipi :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 139);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 20);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Ürün Rengi :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 107);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Ürün Boyutu :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Ürün İsmi :";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Ürün ID :";
+            this.lbl_urunid.AutoSize = true;
+            this.lbl_urunid.Location = new System.Drawing.Point(75, 43);
+            this.lbl_urunid.Name = "lbl_urunid";
+            this.lbl_urunid.Size = new System.Drawing.Size(83, 20);
+            this.lbl_urunid.TabIndex = 1;
+            this.lbl_urunid.Text = "Ürün ID :";
             // 
             // pictureBox1
             // 
@@ -286,6 +196,77 @@
             this.pictureBox1.Size = new System.Drawing.Size(251, 230);
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
+            // 
+            // txtb_urunid
+            // 
+            this.txtb_urunid.Enabled = false;
+            this.txtb_urunid.Location = new System.Drawing.Point(161, 40);
+            this.txtb_urunid.Name = "txtb_urunid";
+            this.txtb_urunid.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunid.TabIndex = 11;
+            // 
+            // txtb_urunisim
+            // 
+            this.txtb_urunisim.Location = new System.Drawing.Point(161, 72);
+            this.txtb_urunisim.Name = "txtb_urunisim";
+            this.txtb_urunisim.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunisim.TabIndex = 12;
+            // 
+            // txtb_urunboyut
+            // 
+            this.txtb_urunboyut.Location = new System.Drawing.Point(161, 104);
+            this.txtb_urunboyut.Name = "txtb_urunboyut";
+            this.txtb_urunboyut.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunboyut.TabIndex = 13;
+            // 
+            // txtb_urunrengi
+            // 
+            this.txtb_urunrengi.Location = new System.Drawing.Point(161, 136);
+            this.txtb_urunrengi.Name = "txtb_urunrengi";
+            this.txtb_urunrengi.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunrengi.TabIndex = 14;
+            // 
+            // txtb_uruntipi
+            // 
+            this.txtb_uruntipi.Location = new System.Drawing.Point(161, 168);
+            this.txtb_uruntipi.Name = "txtb_uruntipi";
+            this.txtb_uruntipi.Size = new System.Drawing.Size(146, 26);
+            this.txtb_uruntipi.TabIndex = 15;
+            // 
+            // txtb_urungiristarih
+            // 
+            this.txtb_urungiristarih.Location = new System.Drawing.Point(161, 200);
+            this.txtb_urungiristarih.Name = "txtb_urungiristarih";
+            this.txtb_urungiristarih.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urungiristarih.TabIndex = 16;
+            // 
+            // txtb_uruncikistarih
+            // 
+            this.txtb_uruncikistarih.Location = new System.Drawing.Point(161, 232);
+            this.txtb_uruncikistarih.Name = "txtb_uruncikistarih";
+            this.txtb_uruncikistarih.Size = new System.Drawing.Size(146, 26);
+            this.txtb_uruncikistarih.TabIndex = 17;
+            // 
+            // txtb_urunadedi
+            // 
+            this.txtb_urunadedi.Location = new System.Drawing.Point(161, 264);
+            this.txtb_urunadedi.Name = "txtb_urunadedi";
+            this.txtb_urunadedi.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunadedi.TabIndex = 18;
+            // 
+            // txtb_urunfiyat
+            // 
+            this.txtb_urunfiyat.Location = new System.Drawing.Point(161, 296);
+            this.txtb_urunfiyat.Name = "txtb_urunfiyat";
+            this.txtb_urunfiyat.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunfiyat.TabIndex = 19;
+            // 
+            // txtb_urunaciklama
+            // 
+            this.txtb_urunaciklama.Location = new System.Drawing.Point(161, 328);
+            this.txtb_urunaciklama.Name = "txtb_urunaciklama";
+            this.txtb_urunaciklama.Size = new System.Drawing.Size(146, 26);
+            this.txtb_urunaciklama.TabIndex = 20;
             // 
             // Guncelle
             // 
@@ -296,7 +277,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Guncelle";
             this.Text = "Guncelle";
             this.Load += new System.EventHandler(this.Guncelle_Load);
@@ -312,26 +293,26 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_urunaciklama;
+        private System.Windows.Forms.Label lbl_urunfiyat;
+        private System.Windows.Forms.Label lbladed;
+        private System.Windows.Forms.Label lbl_uruncikistarih;
+        private System.Windows.Forms.Label lbl_urungiristarih;
+        private System.Windows.Forms.Label lbl_uruntipi;
+        private System.Windows.Forms.Label lbl_urunrengi;
+        private System.Windows.Forms.Label lbl_urunboyut;
+        private System.Windows.Forms.Label lbl_urunisim;
+        private System.Windows.Forms.Label lbl_urunid;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtb_urunaciklama;
+        private System.Windows.Forms.TextBox txtb_urunfiyat;
+        private System.Windows.Forms.TextBox txtb_urunadedi;
+        private System.Windows.Forms.TextBox txtb_uruncikistarih;
+        private System.Windows.Forms.TextBox txtb_urungiristarih;
+        private System.Windows.Forms.TextBox txtb_uruntipi;
+        private System.Windows.Forms.TextBox txtb_urunrengi;
+        private System.Windows.Forms.TextBox txtb_urunboyut;
+        private System.Windows.Forms.TextBox txtb_urunisim;
+        private System.Windows.Forms.TextBox txtb_urunid;
     }
 }
